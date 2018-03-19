@@ -51,7 +51,7 @@ save embedding.mat;
 %% Train LSTM
 fprintf('Prepare to run LSTM training...\n');
 inputSize = embeddingDimension;
-outputSize = 256;
+outputSize = 512;
 numClasses = numel(categories(YTrain));
 
 layers = [ ...
@@ -62,8 +62,8 @@ layers = [ ...
     classificationLayer];
 
 
-maxEpochs = 1000;
-miniBatchSize = 2000;
+maxEpochs = 2000;
+miniBatchSize = 1000;
 shuffle = 'every-epoch';
 
 options = trainingOptions('sgdm', ...
