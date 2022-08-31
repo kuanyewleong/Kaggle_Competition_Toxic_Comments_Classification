@@ -1,3 +1,5 @@
+![alt text](https://github.com/kuanyewleong/Kaggle_Competition_Toxic_Comments_Classification/figures/text-embedding-plot-with-t-sne-e1522139147164.png "Text embedding plot with t-SNE")
+
 # Toxic Comments Classification – a project for Kaggle Competition
 Have you ever thought of how can human’s words or text be classified by a machine? The challenge lies within the fact that text or words are entities of semantic (they have  meaning in language or logic), while machine solves problem based on mathematical representation. In other words, we have to be able to convert the semantics of words into some forms of mathematical representation in order for the machine to work on them. Here I am writing about how the above can be achieved based on a project (a $35,000 prized competition from Kaggle) I have worked on recently.
 
@@ -15,12 +17,12 @@ This is an example of how a classifier can be developed and trained to classify 
 
 The types of toxicity of the comments to be classified are:
 
-toxic
-severe_toxic
-obscene
-threat
-insult
-identity_hate
+- toxic
+- severe_toxic
+- obscene
+- threat
+- insult
+- identity_hate
 
 I created a model in Matlab which predicts a probability of each type of toxicity for each comment. The model is also trained to predict the classes.
 
